@@ -5,26 +5,28 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game05Controller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
     <Files>
-      <File FileName="../XR3조/Assets/Scripts/GameController.cs" Line="15" Column="18" />
-      <File FileName="../XR3조/Assets/Scripts/Game05Controller.cs" Line="24" Column="42" />
+      <File FileName="../XR3조/Assets/Scripts/GameController.cs" Line="10" Column="1" />
+      <File FileName="../XR3조/Assets/Scripts/Game05Controller.cs" />
       <File FileName="../XR3조/Assets/Scripts/Game01Controller.cs" />
       <File FileName="../XR3조/Assets/Scripts/Game02Controller.cs" />
       <File FileName="../XR3조/Assets/Scripts/Game03Controller.cs" />
       <File FileName="../XR3조/Assets/Scripts/Game04Controller.cs" />
       <File FileName="../XR3조/Assets/Scripts/Game07Controller.cs" />
       <File FileName="../XR3조/Assets/Scripts/Game06Controller.cs" />
-      <File FileName="../XR3조/Assets/Scripts/SceneController.cs" Line="1" Column="1" />
+      <File FileName="../XR3조/Assets/Scripts/SceneController.cs" />
       <File FileName="../XR3조/Assets/Scripts/TestLocationService.cs" Line="1" Column="1" />
-      <File FileName="../XR3조/Assets/Scripts/ColliderThrowingController.cs" Line="26" Column="10" NotebookId="1" />
+      <File FileName="../XR3조/Assets/Scripts/ColliderThrowingController.cs" Line="26" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="XR3조" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="GameController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

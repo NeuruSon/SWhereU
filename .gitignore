@@ -4,16 +4,18 @@
  
 # =============== #
  
-XR3조/Temp/
+Temp/
  
-XR3조/Obj/
+Obj/
  
-XR3조/UnityGenerated/
+UnityGenerated/
  
 XR3조/Library/
 
-XR3조/Builds
- 
+Library/
+
+Builds/
+
  
  
 # ===================================== #
