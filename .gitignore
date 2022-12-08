@@ -1,0 +1,78 @@
+# =============== #
+ 
+# Unity generated #
+ 
+# =============== #
+ 
+XR3조/Temp/
+ 
+XR3조/Obj/
+ 
+XR3조/UnityGenerated/
+ 
+XR3조/Library/
+
+XR3조/Builds
+ 
+ 
+ 
+# ===================================== #
+ 
+# Visual Studio / MonoDevelop generated #
+ 
+# ===================================== #
+ 
+XR3조/ExportedObj/
+ 
+*.svd
+ 
+*.userprefs
+ 
+*.csproj
+ 
+*.pidb
+ 
+*.suo
+ 
+*.sln
+ 
+*.user
+ 
+*.unityproj
+ 
+*.booproj
+ 
+ 
+ 
+# ============ #
+ 
+# OS generated #
+ 
+# ============ #
+ 
+.DS_Store
+ 
+.DS_Store?
+
+XR3조/.DS_Store
+ 
+XR3조/.DS_Store?
+
+._*
+ 
+.Spotlight-V100
+ 
+.Trashes
+ 
+Icon?
+ 
+ehthumbs.db
+ 
+Thumbs.db
+ 
+GraphicsSettings.asset
+ 
+ProjectSettings.asset
+ 
+ProjectVersion.txt
+Packages/com.ptc.vuforia.engine-10.11.3.tgz
