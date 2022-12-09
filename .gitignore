@@ -9,8 +9,6 @@ Temp/
 Obj/
  
 UnityGenerated/
- 
-XR3조/Library/
 
 Library/
 
@@ -24,7 +22,7 @@ Builds/
  
 # ===================================== #
  
-XR3조/ExportedObj/
+ExportedObj/
  
 *.svd
  
@@ -56,10 +54,6 @@ XR3조/ExportedObj/
  
 .DS_Store?
 
-XR3조/.DS_Store
- 
-XR3조/.DS_Store?
-
 ._*
  
 .Spotlight-V100
@@ -77,4 +71,5 @@ GraphicsSettings.asset
 ProjectSettings.asset
  
 ProjectVersion.txt
-Packages/com.ptc.vuforia.engine-10.11.3.tgz
+
+# Packages/com.ptc.vuforia.engine-10.11.3.tgz #
