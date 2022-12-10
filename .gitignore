@@ -9,13 +9,12 @@ Temp/
 Obj/
  
 UnityGenerated/
- 
-XR3조/Library/
 
 Library/
 
 Builds/
 
+Logs/
  
  
 # ===================================== #
@@ -24,7 +23,7 @@ Builds/
  
 # ===================================== #
  
-XR3조/ExportedObj/
+ExportedObj/
  
 *.svd
  
@@ -77,4 +76,5 @@ GraphicsSettings.asset
 ProjectSettings.asset
  
 ProjectVersion.txt
+
 Packages/com.ptc.vuforia.engine-10.11.3.tgz
