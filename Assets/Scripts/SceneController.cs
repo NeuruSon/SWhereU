@@ -13,4 +13,9 @@ public class SceneController : MonoBehaviour
     public void toGameScene() {
         SceneManager.LoadScene("GameScene");
     }
+
+    public void toMapScene()
+    {
+        SceneManager.LoadScene("MapScene");
+    }
 }

@@ -5,6 +5,7 @@
 		</type>
 		<type fullname="SceneController">
 			<method name="toGameScene"/>
+			<method name="toMapScene"/>
 		</type>
 		<type fullname="TestLocationService">
 			<method name="StopGPS"/>

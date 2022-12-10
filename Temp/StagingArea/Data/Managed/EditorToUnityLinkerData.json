@@ -22,7 +22,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -32,7 +33,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -49,7 +51,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -59,7 +62,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -76,7 +80,8 @@
             "moduleName": "AI",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -135,7 +140,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -187,7 +193,8 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -197,7 +204,8 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -207,7 +215,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -226,7 +235,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -236,7 +246,8 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -246,7 +257,8 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -265,7 +277,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -275,7 +288,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -285,7 +299,8 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -295,7 +310,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -305,7 +321,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -315,7 +332,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -325,7 +343,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -362,7 +381,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -372,7 +392,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -407,7 +428,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -433,7 +455,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -452,7 +475,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -471,7 +495,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -481,7 +506,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -491,7 +517,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -501,7 +528,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         },
         {
@@ -511,7 +539,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/GameScene.unity",
-                "Assets/Scenes/MapScene.unity"
+                "Assets/Scenes/MapScene.unity",
+                "Assets/Scenes/TitleScene.unity"
             ]
         }
     ],
