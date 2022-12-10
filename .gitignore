@@ -78,3 +78,13 @@ ProjectSettings.asset
 ProjectVersion.txt
 
 Packages/com.ptc.vuforia.engine-10.11.3.tgz
+*.log
+*.log
+Logs/AssetImportWorker0-prev.log
+Logs/AssetImportWorker0.log
+Logs/AssetImportWorker1-prev.log
+Logs/AssetImportWorker1.log
+Logs/shadercompiler-AssetImportWorker0.log
+Logs/shadercompiler-UnityShaderCompiler0.log
+Logs/shadercompiler-UnityShaderCompiler1.log
+Logs/shadercompiler-UnityShaderCompiler2.log
