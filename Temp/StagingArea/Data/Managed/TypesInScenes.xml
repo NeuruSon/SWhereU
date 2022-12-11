@@ -5,6 +5,7 @@
 		<type fullname="Game04Controller" preserve="nothing"/>
 		<type fullname="Game05Controller" preserve="nothing"/>
 		<type fullname="GameController" preserve="nothing"/>
+		<type fullname="HomeController" preserve="nothing"/>
 		<type fullname="SceneController" preserve="nothing"/>
 		<type fullname="TestLocationService" preserve="nothing"/>
 		<type fullname="TypeWriterEffect" preserve="nothing"/>
@@ -77,6 +78,8 @@
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.RawImage" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Slider" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Vuforia.Unity.Engine">

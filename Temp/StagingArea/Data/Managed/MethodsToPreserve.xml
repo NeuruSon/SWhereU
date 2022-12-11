@@ -3,8 +3,20 @@
 		<type fullname="Game05Controller">
 			<method name="startGame"/>
 		</type>
+		<type fullname="GameController">
+			<method name="startGame"/>
+			<method name="startGame"/>
+		</type>
+		<type fullname="HomeController">
+			<method name="startMission04"/>
+			<method name="startMission05"/>
+		</type>
 		<type fullname="SceneController">
 			<method name="toGameScene"/>
+			<method name="toGameScene"/>
+			<method name="toGameScene"/>
+			<method name="toGameScene"/>
+			<method name="toMapScene"/>
 			<method name="toMapScene"/>
 		</type>
 		<type fullname="TestLocationService">

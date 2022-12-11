@@ -6,8 +6,11 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
     public int gameNum;
-    public bool isScriptGoOn = false, gameStart = false;
-    public GameObject panel_dialog, panel_game, gameBox;
+    public bool isScriptGoOn = false, gameHintOn = false,
+        gameStart = false, isGameCleared = false;
+    //아예 게임 자체가 클리어 여부를 bool로 반환하는 함수라면... 
+    public GameObject panel_dialog, gameBox, hintBox, panel_clear, _tempCam;
+    GameObject panel_game, panel_hint;
     public Slider _slider_hp, _slider_st;
     float timer = 0.0f;
 
@@ -15,8 +18,7 @@ public class GameController : MonoBehaviour
     {
         gameBox = GameObject.Find("GameBox");
         panel_dialog.SetActive(true);
-        gameNum = 5;
-
+        gameNum = PlayerData.curGameNum;
     }
 
     void Update()
@@ -45,11 +47,24 @@ public class GameController : MonoBehaviour
             }
         }
 
-        if(gameStart)
+        if (gameHintOn)
+        {
+            gameHintOn = false;
+            panel_hint = hintBox.GetComponent<Transform>().GetChild(gameNum - 1).gameObject;
+            panel_hint.SetActive(true);
+        }
+        if (gameStart)
         {
             gameStart = false;
-            panel_game = gameBox.GetComponent<Transform>().GetChild(gameNum-1).gameObject;
+            _tempCam.SetActive(false);
+            panel_game = gameBox.GetComponent<Transform>().GetChild(gameNum - 1).gameObject;
             panel_game.SetActive(true);
+        }
+        if (isGameCleared)
+        {
+            isGameCleared = false;
+            PlayerData.clearCount[gameNum - 1] = true;
+            panel_clear.SetActive(true);
         }
     }
 
@@ -67,5 +82,11 @@ public class GameController : MonoBehaviour
     public void off_slider_st()
     {
         _slider_st.gameObject.SetActive(false);
+    }
+
+    public void startGame()
+    {
+        panel_hint.SetActive(false);
+        gameStart = true;
     }
 }

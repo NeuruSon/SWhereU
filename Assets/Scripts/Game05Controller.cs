@@ -44,8 +44,8 @@ public class Game05Controller : MonoBehaviour
             timer_throw += Time.deltaTime;
             if (timer_throw >= timeLimit_throw)
             {
-                //Instantiate(col_ball);
-                Instantiate(col_ball_temp);
+                Instantiate(col_ball);
+                //Instantiate(col_ball_temp);
                 Debug.Log("instantiate");
 
                 ++count_ball;
@@ -59,11 +59,13 @@ public class Game05Controller : MonoBehaviour
                 isGaming = false;
                 sliderHP.value = 0;
                 Debug.Log("cleared");
+
+                gCon.GetComponent<GameController>().isGameCleared = true;
             }
         }
         else if (sliderHP.value <= 0 && !isGaming)
         {
-            tmp3.text = "cleared";
+            //    tmp3.text = "cleared";
             col_fire1.SetActive(false);
             col_fire2.SetActive(false);
             col_fire3.SetActive(false);
@@ -75,11 +77,9 @@ public class Game05Controller : MonoBehaviour
         if (b)
         {
             --sliderHP.value;
+            ++count_false_ball;
         }
-
         Destroy(ball);
-
-        ++count_false_ball;
         tmp2.text = count_false_ball + "?!";
     }
 

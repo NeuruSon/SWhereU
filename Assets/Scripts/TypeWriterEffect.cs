@@ -82,7 +82,7 @@ public class TypeWriterEffect : MonoBehaviour
         if(text_exit==true)
         {
             gCon.GetComponent<GameController>().isScriptGoOn = false;
-            gCon.GetComponent<GameController>().gameStart = true;
+            gCon.GetComponent<GameController>().gameHintOn = true;
         }
         if (Input.touchCount > 0)
         {
@@ -92,10 +92,10 @@ public class TypeWriterEffect : MonoBehaviour
                 End_Typing();
             }
         }
-        if (Input.GetMouseButtonDown(0))
-        {
-            End_Typing();
-        }
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    End_Typing();
+        //}
     }
 
     //다음버튼함수

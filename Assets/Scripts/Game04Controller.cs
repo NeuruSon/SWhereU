@@ -76,7 +76,8 @@ public class Game04Controller : MonoBehaviour
                 isGaming = false;
                 sliderHP.value = 0;
                 Debug.Log("cleared");
-                tmp3.text = "cleared";
+
+                gCon.GetComponent<GameController>().isGameCleared = true;
             }
         }
 
