@@ -8,7 +8,7 @@ public class Game04Controller : MonoBehaviour
 {
     Slider sliderHP;
     GameObject gCon;
-    public int slider_minValue = 0, wall_maxValue = 20;
+    public int slider_minValue = 0, wall_maxValue = 5;
 
     float timer_map = 0.0f, timer_throw = 0.0f, timeLimit_throw = 0.5f;
     bool isGaming = false;
@@ -42,12 +42,12 @@ public class Game04Controller : MonoBehaviour
                 + wall_4.GetComponent<ColliderWallController>().hp
                 + wall_5.GetComponent<ColliderWallController>().hp;
 
-        tmp1 = GameObject.Find("tmp_message_1").GetComponent<TextMeshProUGUI>();
-        tmp1.text = "0";
-        tmp2 = GameObject.Find("tmp_message_2").GetComponent<TextMeshProUGUI>();
-        tmp2.text = "0";
-        tmp3 = GameObject.Find("tmp_message_3").GetComponent<TextMeshProUGUI>();
-        tmp3.text = " ";
+        //tmp1 = GameObject.Find("tmp_message_1").GetComponent<TextMeshProUGUI>();
+        //tmp1.text = "0";
+        //tmp2 = GameObject.Find("tmp_message_2").GetComponent<TextMeshProUGUI>();
+        //tmp2.text = "0";
+        //tmp3 = GameObject.Find("tmp_message_3").GetComponent<TextMeshProUGUI>();
+        //tmp3.text = " ";
 
 
         startGame();
@@ -67,7 +67,7 @@ public class Game04Controller : MonoBehaviour
                 Debug.Log("instantiate");
 
                 ++count_ball;
-                tmp1.text = count_ball + "!";
+                //tmp1.text = count_ball + "!";
                 timer_throw = 0.0f;
             }
 
@@ -96,7 +96,7 @@ public class Game04Controller : MonoBehaviour
                 + wall_5.GetComponent<ColliderWallController>().hp;
 
             ++count_false_ball;
-            tmp2.text = count_false_ball + "?!";
+            //tmp2.text = count_false_ball + "?!";
             ball.GetComponent<Rigidbody>().isKinematic = true;
             ball.GetComponent<Transform>().SetParent(wall.GetComponent<Transform>());
         }

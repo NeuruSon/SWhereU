@@ -4,7 +4,6 @@ using TMPro;
 
 public class TestLocationService : MonoBehaviour
 {
-    public static double d_latitude, d_longitude;
     public TextMeshProUGUI lati, longi, tmp_isGPSon;
 
     private static bool isGPSon = false;
@@ -24,15 +23,17 @@ public class TestLocationService : MonoBehaviour
         // Starts the location service.
         Input.location.Start(5f);
         tmp_isGPSon.text = "GPS ON";
+        PlayerData.isGPSOn = true;
         Debug.Log("location");
         lati.text = "-";
         longi.text = "-";
 
         location = Input.location.lastData;
-        d_latitude = location.latitude * 1.0d;
-        d_longitude = location.longitude * 1.0d;
-        lati.text = d_latitude + "";
-        longi.text = d_longitude + "";
+
+        PlayerData.curLati = location.latitude * 1.0d;
+        PlayerData.curLongi = location.longitude * 1.0d;
+        lati.text = PlayerData.curLati + "";
+        longi.text = PlayerData.curLongi + "";
         // Waits until the location service initializes
         int maxWait = 20;
         while (Input.location.status == LocationServiceStatus.Initializing && maxWait > 0)
@@ -65,16 +66,16 @@ public class TestLocationService : MonoBehaviour
             while (isGPSon)
             {
                 location = Input.location.lastData;
-                d_latitude = location.latitude * 1.0d;
-                d_longitude = location.longitude * 1.0d;
-                lati.text = d_latitude + "";
-                longi.text = d_longitude + "";
+                PlayerData.curLati = location.latitude * 1.0d;
+                PlayerData.curLongi = location.longitude * 1.0d;
+                lati.text = PlayerData.curLati + "";
+                longi.text = PlayerData.curLongi + "";
                 yield return second;
             }
         }
         if (!isGPSon)
         {
-            tmp_isGPSon.text = "GPS OFF";
+            tmp_isGPSon.text = "GPS OFF MODE";
         }
     }
 
@@ -88,6 +89,7 @@ public class TestLocationService : MonoBehaviour
         if (Input.location.isEnabledByUser)
         {
             isGPSon = false;
+            PlayerData.isGPSOn = false;
             Input.location.Stop();
         }
     }

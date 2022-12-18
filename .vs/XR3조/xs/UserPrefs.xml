@@ -1,40 +1,29 @@
-﻿<Properties StartupConfiguration="{A38A33F8-06C8-DFC4-8B80-386CD1AEA513}|">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="49362387-9e48-4cee-ba66-5fb2b7ba4806" />
+﻿<Properties StartupConfiguration="{117AF566-4983-0B28-B4AA-8F054C995822}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4ff94794-7e8b-49c8-8465-110fd169557e" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TypeWriterEffect.cs">
     <Files>
-      <File FileName="../XR3조/Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs" Line="2" Column="1" />
-      <File FileName="../XR3조/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/Icons/Icons.cs" Line="13" Column="1" />
-      <File FileName="../XR3조/Assets/Scripts/GameController.cs" Line="10" Column="1" />
-      <File FileName="../XR3조/Assets/Scripts/Game05Controller.cs" />
-      <File FileName="../XR3조/Assets/Scripts/Game01Controller.cs" />
-      <File FileName="../XR3조/Assets/Scripts/Game02Controller.cs" />
-      <File FileName="../XR3조/Assets/Scripts/Game03Controller.cs" />
-      <File FileName="../XR3조/Assets/Scripts/Game04Controller.cs" />
-      <File FileName="../XR3조/Assets/Scripts/Game07Controller.cs" />
-      <File FileName="../XR3조/Assets/Scripts/Game06Controller.cs" />
-      <File FileName="../XR3조/Assets/Scripts/SceneController.cs" />
-      <File FileName="../XR3조/Assets/Scripts/TestLocationService.cs" Line="1" Column="1" />
-      <File FileName="../XR3조/Assets/Scripts/ColliderThrowingController.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="../XR3조/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs" Line="1534" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/Game07Controller.cs" />
+      <File FileName="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/Icons/Icons.cs" />
+      <File FileName="Assets/Scripts/GameController.cs" />
+      <File FileName="Assets/Scripts/Game01Controller.cs" />
+      <File FileName="Assets/Scripts/Game02Controller.cs" />
+      <File FileName="Assets/Scripts/Game03Controller.cs" />
+      <File FileName="Assets/Scripts/Game06Controller.cs" />
+      <File FileName="Assets/Scripts/SceneController.cs" />
+      <File FileName="Assets/Scripts/TestLocationService.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/Game04Controller.cs" Line="78" Column="38" NotebookId="1" />
+      <File FileName="Assets/Scripts/Game05Controller.cs" NotebookId="1" />
+      <File FileName="Assets/Scripts/ColliderThrowingController.cs" NotebookId="1" />
+      <File FileName="Assets/Scripts/TypeWriterEffect.cs" Line="98" Column="28" NotebookId="1" />
+      <File FileName="Assets/Scripts/ScriptData.cs" NotebookId="1" />
+      <File FileName="Assets/Scripts/PlayerData.cs" NotebookId="1" />
+      <File FileName="Assets/Scripts/HomeController.cs" NotebookId="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="XR3조" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="ColliderThrowingController.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

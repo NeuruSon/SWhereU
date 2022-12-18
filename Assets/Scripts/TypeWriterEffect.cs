@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class TypeWriterEffect : MonoBehaviour
 {
-    public GameObject gCon;
+    public GameObject gCon, img_triangle;
     public TextMeshProUGUI scriptT, speaker;
 
     //변경할 변수
@@ -28,6 +28,7 @@ public class TypeWriterEffect : MonoBehaviour
     //시작과 동시에 타이핑시작
     void Start()
     {
+        img_triangle.SetActive(false);
         Debug.Log(gCon.GetComponent<GameController>().gameNum);
         switch (gCon.GetComponent<GameController>().gameNum)
         {
@@ -141,6 +142,7 @@ public class TypeWriterEffect : MonoBehaviour
         }
         else
         {
+            img_triangle.SetActive(false);
             speaker.text = spk[cnt];
             //타이핑 시작
             for (int i = 0; i < _fullText[cnt].Length; i++)
@@ -155,11 +157,12 @@ public class TypeWriterEffect : MonoBehaviour
                 yield return new WaitForSeconds(delay);
             }
             //탈출시 모든 문자출력
-            Debug.Log("Typing 종료");
+            //Debug.Log("Typing 종료");
             scriptT.text = changeScript(_fullText[cnt]);
             yield return new WaitForSeconds(Skip_delay);
 
             //스킵_지연후 종료
+            img_triangle.SetActive(true);
             Debug.Log("Enter 대기");
             text_full = true;
         }
@@ -167,7 +170,7 @@ public class TypeWriterEffect : MonoBehaviour
 
     string changeScript(string s)
     {
-        Debug.Log("교체");
+        //Debug.Log("교체");
         s = s.Replace("-", "\n"); //줄바꿈.
         return s;
     }

@@ -8,14 +8,16 @@
 			<method name="startGame"/>
 		</type>
 		<type fullname="HomeController">
+			<method name="error"/>
+			<method name="error"/>
+			<method name="Sound"/>
 			<method name="startMission04"/>
 			<method name="startMission05"/>
 		</type>
 		<type fullname="SceneController">
 			<method name="toGameScene"/>
 			<method name="toGameScene"/>
-			<method name="toGameScene"/>
-			<method name="toGameScene"/>
+			<method name="toMapScene"/>
 			<method name="toMapScene"/>
 			<method name="toMapScene"/>
 		</type>

@@ -6,9 +6,16 @@ using UnityEngine.UI;
 public class HomeController : MonoBehaviour
 {
     public Button[] btns = new Button[7];
+    public GameObject tmp_error, btn_sound;
+    public Sprite img_sound_off, img_sound_on;
+
     void Start()
     {
-        
+        if (PlayerData.isSoundOn == false)
+        {
+            gameObject.GetComponent<AudioSource>().mute = true;
+            btn_sound.GetComponent<Image>().sprite = img_sound_off;
+        }
     }
 
     void Update()
@@ -57,5 +64,26 @@ public class HomeController : MonoBehaviour
     public void startMission07()
     {
         PlayerData.curGameNum = 7;
+    }
+
+    public void error()
+    {
+        Instantiate(tmp_error);
+    }
+
+    public void Sound()
+    {
+        if (PlayerData.isSoundOn)
+        {
+            PlayerData.isSoundOn = false;
+            gameObject.GetComponent<AudioSource>().mute = true;
+            btn_sound.GetComponent<Image>().sprite = img_sound_off;
+        }
+        else
+        {
+            PlayerData.isSoundOn = true;
+            gameObject.GetComponent<AudioSource>().mute = false;
+            btn_sound.GetComponent<Image>().sprite = img_sound_on;
+        }
     }
 }
